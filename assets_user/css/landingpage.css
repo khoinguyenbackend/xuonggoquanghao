@@ -1,0 +1,206 @@
+.ld-title{
+    text-align: center;
+    color: var(--second-color);
+    font-size: medium;
+}
+.sec-title{
+    color: var(--first-color);
+}
+.secone-content img{
+    border-radius: 15px;
+    display: flex;
+    margin: auto;
+} 
+.secone-content .col.l-12{
+    display: flex;
+    padding: 0; 
+    flex-direction: rơ;
+    justify-content: center;
+    margin: 0 20px;
+}
+.product-box.col.l-3{
+    transition: all 0.3s ease;
+    border-radius: 15px;
+    border: 1px solid var(--first-color);
+    padding: 0;
+    margin: 0 5px;
+}
+.product-box.col.l-3:hover{
+    transform:scale(1.1);
+    -ms-transform:scale(1.1); /* IE 9 */
+    -moz-transform:scale(1.1); /* Firefox */
+    -webkit-transform:scale(1.1); /* Safari and Chrome */
+    -o-transform:scale(1.1); /* Opera */
+}
+.product-box img{
+    border-radius: 15px 15px 0 0;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+.box-content{
+    display: block;
+    text-align: center;
+}
+.box-content p{
+    width: 100%;
+    font-family: montserat-bold;
+    margin: 5px 0;
+    font-size: medium;
+}
+.box-content a{
+    color: var(--first-color);
+    font-size: smaller;
+}
+.resion-two .col.l-12{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+    justify-content: center ;
+}
+.sectwo-item.col.l-6{
+    padding: 0;
+    margin: 0 20px;
+}
+.sectwo-item.col.l-6 b{
+    padding: 10px 0;
+    font-family: montserat-bold;
+}
+.sectwo-item img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.sectwo-icon img{
+    border-radius: 0;
+    width: 80px;
+}
+.resion-three .col.l-12{
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
+.secthree-image.col.l-6{
+    padding: 0;
+}
+.secthree-image img{
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.secthree-content span{
+    background: linear-gradient(to right, var(--first-color)  0%, var(--second-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: montserat-bold;
+}
+.secthree-content {
+    font-size:large;
+}
+.resion-four .col.l-12{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0 30px;
+}
+.secfour-content.col.l-6{
+    background-color: #f7f7f7;
+}
+.secfour-image.col.l-6{
+    padding: 0;
+}
+.secfour-image img{
+    width: 90%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 15px;
+    float: right;
+}
+.secfour-content span{
+    background: linear-gradient(to right, var(--first-color)  0%, var(--second-color) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: montserat-bold;
+}
+.secfour-content {
+    font-size:large;
+    padding: 20px;
+    padding-bottom: 0;
+    border-radius: 15px;
+    border: 1px solid var(--second-color);
+    filter: drop-shadow(2px 3px 3px black);
+}
+.secfour-content .btn-product{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+@media(max-width: 739px){
+    .wide{
+        padding: 0 20px;
+    }
+    .banner{
+        padding-top: 100px;
+    }
+    .bn-title.wide {
+        text-align: center;
+    }
+    .secone-content img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    section.resion-two .col.l-12 {
+        display: block;
+        margin: 0;
+    }
+    .sectwo-icon {
+        display: flex;
+        justify-content: center;
+    }
+    .sectwo-item img {
+        margin-top: 10px;
+    }
+    .sectwo-icon {
+        margin-bottom: 10px;
+    }
+    .resion-three .col.l-12 {
+        display: block;
+    }
+    .secthree-image img {
+        width: 100%;
+    }
+    .secthree-content.col.l-6 p {
+        text-align: justify;
+    }
+    section.resion-four .col.l-12 {
+        display: block;
+    }
+    .secfour-image.col.l-6 {
+        width: 92%;
+        object-fit: cover;
+        float: none;
+        position: absolute;
+        margin-top: -560px;
+        z-index: -1;
+        left: 0;
+        right: 0;
+    }
+    .secfour-content.col.l-6 {
+        margin-top: 190px;
+    }
+    .secfour-content.col.l-6 p {
+        font-size: smaller;
+    }
+    .sectwo-item.col.l-6.c-12 p {
+        text-align: justify;
+    }
+    .ld-title {
+        font-size: smaller;
+    }
+    .secone-content .col.l-12 {
+        width: 100%;
+        margin: 0;
+    }
+}
